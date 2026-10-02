@@ -1,44 +1,42 @@
-# README — Interview Guidance, Distilled
+# Interview Playbook — README
 
-## What this is
+This playbook is distilled from six books in this repo: Fry, *101 Great Answers*; LaCivita, *Interview Intervention*; Kelley, *Get That Job*; Kador, *301 Best Questions to Ask*; Klaus, *Brag!*; and Bolles, *What Color Is Your Parachute?* (2011). Two other source files (`101 Great Questions.pdf` and Dalton's *2-Hour Job Search*) were empty (0 bytes) and contributed nothing.
 
-This folder distills six full-length books on interviewing, self-promotion, and job search into one compact, cross-referenced system. The goal: when you're staring down a real interview, you should be able to hand a downstream LLM three things — this folder, your resume, and a job description — and get back a tailored 60-second pitch, your 3 core messages, and answers that hold up even for questions you never rehearsed.
+## The whole system in 4 lines
 
-**Source books** (all in the parent folder, read-only, untouched):
-1. *101 Great Answers to the Toughest Interview Questions* — Ron Fry
-2. *Interview Intervention* — Andrew LaCivita
-3. *Get That Job* — Thea Kelley
-4. *301 Best Questions to Ask on Your Interview* — John Kador
-5. *Brag!* — Peggy Klaus
-6. *What Color Is Your Parachute?* (2011) — Richard Nelson Bolles
+1. **3 pillars:** three messages you get across no matter what you're asked.
+   - **PROVE:** I can do it.
+   - **FIT:** I'll mesh here.
+   - **EDGE:** I'm not interchangeable.
+2. **4 shapes:** every answer is a **STORY**, **PIVOT**, **MAP** or **CLOSE**.
+3. **8 question types:** every question fits one of eight. Each has a hidden fear and a default shape.
+4. **The loop:** for any question, decode it, pick a shape, anchor it to a pillar, and end on a forward note.
 
-(Two files in the parent folder — *101 Great Questions.pdf* and *Steve Dalton's 2-Hour Job Search.epub* — were 0 bytes / empty and contained no extractable content, so nothing from them is reflected here.)
+Built for when you're underqualified: name the gap first, prove you learn fast, ask for their hiring criteria, and ask what objections they have.
 
-## What was kept vs. cut
+## Files (read them in order the first time)
 
-**Cut:** motivational filler ("believe in yourself"), the philosophical/"meaning of work" material in *Parachute*, redundant Q&A lists (all six books independently cover "greatest weakness," "tell me about yourself," etc. — you don't need six versions), multi-day self-assessment worksheets, verbatim sample dialogues, and anything that was generic advice repeated across sources.
+| # | File | What it does |
+|---|---|---|
+| 01 | Pitch 60-Sec | Formula for "Tell me about yourself" |
+| 02 | Three Pillars | Choose your 3 messages with the REV filter |
+| 03 | Answer Superstructures | The 4 shapes and the loop |
+| 04 | Question Bank | The 8 types (hidden fear, shape, example) plus questions to ask them |
+| 05 | Story Bank | Find and build 6 tagged stories |
+| 06 | Control & Bridging | Phrases to take control, redirect and close |
+| 07 | LLM Prompts | Master prompt plus 5 task prompts: quick prep, live rescue, mock interview, gap attack, debrief |
+| 08 | One-Pager | One-page sheet to print and glance at |
 
-**Kept and grafted together:** the handful of *genuinely distinct, load-bearing frameworks* each book contributes, merged into single superstructures wherever two books were describing the same underlying mechanic in different words. For example:
-- Bolles's "5 underlying employer questions," Kelley's "Three Cs" (Competence/Compatibility/Chemistry), and Kelley's REV filter all triangulate on the same 3-pillar structure — so they became **one** framework (file 02), not three.
-- SOAR (Kelley), the implicit Problem→Action→Result structure (Fry), and Bolles's 6-question story skeleton all became **one** story template (file 05).
-- ARTS objection-handling (Kador), the Sandwich Technique (Kelley), and "answer the underlying concern" (Fry/LaCivita) became **one** pivot structure (file 03).
+## How to use
 
-## The files
+- **Once:** complete 02 (pillars) and 05 (stories). They carry over to every job.
+- **For each job:** paste Prompt A from 07 into an LLM, along with all the files, your resume and the job description. Use prompts B–F for quick prep, practice, gaps and debriefs.
+- **Night before:** read 08, rehearse the pitch out loud, and skim 06.
+- **In the room, when stuck:** run the loop from 03.
 
-| File | Purpose |
-|---|---|
-| `01-PITCH-60-SEC-FRAMEWORK.md` | Fill-in-the-blank formulas for your 60-second "tell me about yourself" pitch |
-| `02-THREE-PILLARS.md` | How to pick the 3 core messages you drive home all interview, regardless of question |
-| `03-UNIVERSAL-ANSWER-SUPERSTRUCTURES.md` | 4 reusable answer shapes that cover any question type |
-| `04-QUESTION-BANK-CHEAT-SHEET.md` | 8 meta-categories of questions, each with 1 structure + 1 example |
-| `05-STORY-BANK-TEMPLATE.md` | Template for building 5-6 reusable STAR-style stories |
-| `06-CONTROL-BRIDGING-TACTICS.md` | Exact phrases for redirecting, buying time, and taking control |
-| `07-LLM-MASTER-PROMPT.md` | Paste-ready prompt: feed this folder + your resume + a JD to any LLM |
-| `08-ONE-PAGER.md` | Single-page cheat sheet — print this, glance at it in the elevator |
-
-## How to use this system
-
-1. **Once, ahead of any interview season:** work through `02` (pick your 3 pillars) and `05` (bank 5-6 stories). This is the reusable core — do it once, reuse everywhere.
-2. **Per job application:** open `07-LLM-MASTER-PROMPT.md`, paste it into an LLM along with this folder's contents, your resume, and the job description. It will generate a tailored pitch, tailored pillars, and tailored answers.
-3. **Night before / morning of:** skim `08-ONE-PAGER.md` and `06-CONTROL-BRIDGING-TACTICS.md`.
-4. **Mid-interview, if stuck:** fall back on `03-UNIVERSAL-ANSWER-SUPERSTRUCTURES.md` — every question, however novel, is one of those 4 shapes.
+## What was cut
+I cut motivational material, the "meaning of work" philosophy, worksheets, verbatim sample dialogues, and the duplicate versions of common questions that every book repeats. Where several books described the same idea, one merged version survives:
+- Bolles's 5 questions + Kelley's Three Cs + the REV filter → **Pillars**
+- SOAR + Fry's Problem-Action-Result + Bolles's story outline → **STORY**
+- ARTS + the Sandwich technique + "answer the underlying concern" → **PIVOT**
+- Confirm-Assure-Close + asking for the job + Bolles's closing sequence → **CLOSE**

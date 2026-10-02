@@ -1,77 +1,113 @@
-# LLM Master Prompt
+# 07 · LLM Prompts
 
-Copy everything in the box below into a fresh LLM conversation, then attach/paste: (1) all files from this folder, (2) your resume, (3) the job description you're targeting. Replace the bracketed placeholders.
+**Setup:** start a new chat with any capable LLM. Attach or paste files 01–06 and 08 from this folder, then your **resume** and the **job description (JD)**. Add a short company dossier if you have one (website, news, notes). Then paste one of the prompts below.
 
----
-
-```
-You are helping me prepare for a specific job interview. I'm giving you three inputs:
-
-1. A folder of distilled interview-guidance frameworks (files 00 through 08,
-   already attached/pasted below or in this conversation).
-2. My resume (attached/pasted below).
-3. The job description I'm applying to (attached/pasted below).
-
-Using ONLY the frameworks in the guidance folder (don't invent new frameworks
-or fall back on generic interview advice not present in these files), do the
-following:
-
-STEP 1 — THREE PILLARS
-Using 02-THREE-PILLARS.md, read my resume and the job description and propose
-3 pillar messages (Competence / Fit / Differentiator), each run through the
-REV filter (Relevant to THIS job posting, Exceptional/not generic, Verifiable
-against something specific in my resume). For each, cite the specific resume
-line or bullet that proves it. Flag if my resume doesn't have strong enough
-material for one of the pillars, and tell me what info you'd need from me to
-fill the gap.
-
-STEP 2 — 60-SECOND PITCH
-Using 01-PITCH-60-SEC-FRAMEWORK.md and the 3 pillars from Step 1, draft a
-250-350 word pitch for "tell me about yourself," tailored to this job
-description specifically (the company-research hook should reference real,
-specific things from the job description — mission, product, team structure,
-stated priorities — not generic praise). Give it to me as a talking-points
-outline (per Kelley's rule in file 01), not a verbatim script to memorize.
-
-STEP 3 — STORY BANK
-Using 05-STORY-BANK-TEMPLATE.md, ask me for raw material if you don't already
-have it from my resume (use the "Take 12" mining questions), then draft 5-6
-stories in the Situation/Obstacles/Action/Result template, each tagged to
-one of my Three Pillars and to the specific skills this job description
-emphasizes. Include a 15-second compressed version of each.
-
-STEP 4 — ANSWERS TO ALL 8 QUESTION CATEGORIES
-Using 04-QUESTION-BANK-CHEAT-SHEET.md and 03-UNIVERSAL-ANSWER-SUPERSTRUCTURES.md,
-generate one tailored example answer for each of the 8 meta-categories
-(Opener, Proof/Behavioral, Negative/Weakness, Motivation/Fit,
-Objection/Underqualified, Illegal/Personal, Salary/Logistics, Curveball/
-Stress), built from my actual resume material and pillars — not generic
-placeholder answers. For any category where my resume is visibly thin
-against this specific job description (e.g., I'm underqualified on a stated
-requirement), use the Objection/Underqualified structure from file 03
-explicitly and be honest about the gap rather than papering over it.
-
-STEP 5 — CONTROL PLAYBOOK
-Using 06-CONTROL-BRIDGING-TACTICS.md, give me the 3-5 tactics from that file
-most likely to matter for THIS specific interview (e.g., if the job
-description suggests I may be underqualified on paper, prioritize the
-Preemptive Question and the underqualified-gap script; if it's a senior
-role, prioritize the closing control sequence and salary ladder).
-
-STEP 6 — ONE-PAGE SUMMARY
-Compress everything above into the format of 08-ONE-PAGER.md, filled in
-with my actual material, so I have a single page to glance at right before
-the interview.
-
-Ask me clarifying questions about anything in my resume or the job
-description that's ambiguous before you draft final answers — don't guess
-at facts about my background.
-```
+| Prompt | When to use it |
+|---|---|
+| A · Master | Full preparation for a new job (use this first) |
+| B · Quick prep | 15 minutes before a call |
+| C · Live rescue | A question you didn't prepare for |
+| D · Mock interview | Practice with feedback |
+| E · Gap attack | You're underqualified on a requirement |
+| F · Debrief | After each round |
 
 ---
 
-## Notes on using this prompt
+## A · Master prompt
+```
+You are my interview coach. The attached playbook (files 01–08) is your ONLY
+method. Do not import outside frameworks. Inputs: PLAYBOOK, RESUME, JD
+(+ optional COMPANY NOTES).
 
-- If the LLM doesn't have file-attachment support, paste the contents of files `00` through `06` and `08` directly into the conversation before the prompt above.
-- Re-run this per job application — the pillars and pitch are meant to be re-tuned per job description (see file 02), even though your underlying story bank stays mostly stable.
-- If you're prepping for a second-round interview at the same company, tell the LLM which stories/answers you already used in round one so it can avoid repeats (Kelley's warning: interviewers compare notes across rounds).
+Ground rules:
+- Use only facts from my resume/notes. Never invent numbers, titles, or
+  results. Where a number is missing, write [NEED: …] and ask me.
+- Mirror the JD's language. Be concise. Spoken answers, not essays.
+- Assume I may be underqualified; handle gaps head-on per files 03/06.
+
+Produce, in this order:
+
+0. GAP SCAN — Table: each JD requirement → my best evidence (resume line)
+   → Strong / Adjacent / Missing. List the 3 fears this employer will
+   likely have about me (from the list in file 02).
+
+1. THREE PILLARS (file 02) — PROVE / FIT / EDGE, one sentence each, REV-
+   checked, each with its proof and the fear it disarms.
+
+2. 60-SECOND PITCH (file 01) — 7 beats as bullet talking points, then the
+   spoken version (150–250 words), plus a 20-second version.
+
+3. STORY BANK (file 05) — Fill slots S1–S6 as story cards from my resume,
+   each with a 15-second version, pillar tags, and JD skills it proves.
+   Mark weak slots [NEED: …].
+
+4. ANSWERS FOR ALL 8 TYPES (file 04) — For each type Q1–Q8: the 2 most
+   likely questions for THIS role, the shape used, and a spoken answer
+   (≤90 sec) built from my stories. For every "Missing" gap from step 0,
+   add a gap script (PIVOT/ARTS + S4).
+
+5. MY QUESTIONS (file 04 table) — 5 questions tailored to this company,
+   ordered company → role → boss, including the criteria question and the
+   objection question.
+
+6. CONTROL PLAN (file 06) — The 5 tactics most important for THIS
+   interview and the exact phrase I'll use for each, plus my salary line
+   and closing script.
+
+7. ONE-PAGER (file 08) — Filled in with my actual material.
+
+Before step 1, ask me up to 5 short questions about missing facts, then
+continue. If I say "skip", proceed using [NEED] placeholders.
+```
+
+## B · Quick prep (15 minutes before)
+```
+Using the playbook, resume and JD: give me only (1) my 3 pillars, one line
+each; (2) a 20-second and a 60-second pitch; (3) the 3 most likely hard
+questions with a 3-bullet answer each; (4) my top 3 questions to ask; and
+(5) the opening question and the closing script. Keep the whole thing to
+one screen.
+```
+
+## C · Live rescue (an unprepared question)
+```
+Question I got: "<paste>". Using the Loop in file 03: name the type (Q1–Q8),
+the hidden fear, the shape, and the pillar. Then give me a spoken answer of
+40 seconds or less using my stories, ending with one of the 4 landing
+endings. Also give me a 10-second fallback version.
+```
+
+## D · Mock interview
+```
+Act as the hiring manager for this JD. Ask me one question at a time, mixing
+all 8 types, with 2 follow-up probes on weak answers and at least one
+objection about my biggest gap. After each of my answers, score it 1–5 on:
+Shape used, Pillar landed, Specific proof (number), Length (≤2 min),
+Ending (forward). Give me a one-line fix and a tightened version. After 8
+questions, list the 3 things I most need to repeat or change.
+```
+
+## E · Gap attack
+```
+I'm short on this requirement: "<requirement>". Using files 03, 05 and 06,
+give me: (1) adjacent evidence from my resume, (2) a fast-learner story
+(S4), (3) the "name it first" script, (4) an ARTS response if they raise
+it, and (5) a 30/60/90-day plan to close it, in 3 bullets I can say out
+loud.
+```
+
+## F · Debrief (after each round)
+```
+Notes from this round: <who, the questions asked, the stories I used, where
+I struggled, their concerns>. Update: (1) which stories I've now used with
+whom, so I don't repeat them; (2) objections to pre-empt next round, with
+scripts; (3) a thank-you note (same day, 3 short paragraphs, tied to
+specifics they said, correcting any weak impression); (4) what to change
+in my pillars or pitch for the next round.
+```
+
+---
+
+**Tips**
+- Re-run Prompt A for each job. Your stories carry over, but your pillars and pitch should be re-tuned to each JD.
+- Rehearse the output out loud. Edit it into your own words; memorized scripts sound robotic.

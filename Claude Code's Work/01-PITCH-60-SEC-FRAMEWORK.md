@@ -1,42 +1,35 @@
-# The 60-Second Pitch ("Tell Me About Yourself")
+# 01 · The 60-Second Pitch
 
-This question (in all its disguises — "walk me through your background," "why should we hire you," "what makes you unique") is almost always one of the first 1-3 questions asked. Never improvise it. Fry's data point: it's really the same question as "why should we hire you over other candidates" — answer it as a pitch, not a chronology.
+"Tell me about yourself," "walk me through your background," "why should we hire you" and "what makes you unique" are the same question. It usually comes first. Never improvise it, and never just recite your history in order.
 
-Target: **250-350 words, 60-120 seconds spoken.** Kelley's answer-length data: the best answers run under 2 minutes; a genuinely good one can be 20 seconds. Bolles's talk/listen data backs this — don't monologue.
+**Length:** about 150–250 words, or 60–90 seconds. Hard cap 2 minutes; the best-received answers stay under that. Speak from bullet points, not a memorized script, and practice out loud until it sounds fresh.
 
-## The Merged Formula
+## The formula (7 beats)
 
-This grafts LaCivita's "sticky answer" construction rules, Kelley's REV Intro, Fry's 5-part structure, and Klaus's Bragologue anatomy into one sequence:
+| Beat | Content | Pillar |
+|---|---|---|
+| 1 Hook | One concrete line about how you started or a specific moment, not a job title | EDGE |
+| 2 Summary | Years, field, current or last role. Mention years only if they meet what's asked. | PROVE |
+| 3 Throughline | What consistently drives you, or what you're known for | FIT |
+| 4 Proof | 1–2 results with numbers (exact figures beat adjectives) | PROVE |
+| 5 Edge | What others with your title lack (passes the REV filter) | EDGE |
+| 6 Why here | One researched, specific fact tied to your interests | FIT |
+| 7 Handback | End with a question; never trail off | control |
 
-1. **Hook (1 sentence).** Not your job title — a specific, concrete opener. (Klaus: a scene or origin detail beats a title; LaCivita: specificity is what makes you memorable.)
-   > *"[Concrete detail/origin moment] — and that's what got me into [field]."*
+A human detail (a hobby, an unusual background fact) goes in beat 1 or 5. Never mention age, kids, religion or politics.
 
-2. **Career-summary + Pillar 1 (Competence), 1-2 sentences.** State years of experience only if it meets or moderately exceeds what's asked.
-   > *"For the past [X years], I've worked in [field/function], most recently as [role] at [company]."*
+## Fill in the blanks
 
-3. **Bridge through Pillar 2 (Fit) and Pillar 3 (Differentiator)** using simple connectors ("Also…", "What's driven that has been…") — don't make it a list, make it a throughline.
-   > *"What's mattered most to me throughout has been [Fit message] — which is part of why [Differentiator message, backed by a one-line proof point]."*
+> "[HOOK]. For [X years] I've [core function] in [field], most recently as [role] at [company]. What people count on me for is [throughline], and that's shown up as [result with number]. What I'd add that's hard to find is [edge]. That's why [company]'s [specific researched thing] stood out — [why it matters to me]. [Question, e.g. 'What's the biggest priority for whoever fills this role?']"
 
-4. **1-2 short proof points**, dropped in, not exhaustive — specific numbers beat adjectives (LaCivita: "exceeded quota by $257,000," not "about 25%").
-   > *"For example, [specific, numbers-backed result]."*
+## Variants (same parts, rearranged)
 
-5. **One line of humanizing personal color** (never age, kids, politics, religion — Fry's safe-territory rule). Klaus: this is often the single most memorable line in the whole pitch.
-   > *"Outside work, [genuine, specific detail]."*
+- **20 seconds:** beats 2, 5 and 7.
+- **Underqualified:** open with beat 3 (what you do that matters). Give beat 4 proof from related work, then name the gap and how fast you learn before beat 7.
+- **Career changer:** lead with the transferable skill, phrased as verb + object + manner ("untangling messy vendor data fast"), not your old title.
+- **Sharper handback:** "How are you addressing [trend you researched]?" This steers toward their problems.
 
-6. **The pivot to this employer** — the research-based hook. Fry: absence of this is close to disqualifying.
-   > *"That's part of why [this company/role] stood out to me — [specific researched fact tied to your interests]."*
-
-7. **Close by handing control back** — end with a question, never trail off. Kelley's two variants:
-   - Generic: *"What questions do you have about what I've said?"*
-   - Advanced (steers toward their pain point): *"How are you thinking about addressing [industry trend/challenge you researched]?"*
-
-## Fill-in-the-blank template
-
-> "[Hook — concrete detail]. For the past [X years] I've worked in [field], most recently as [role] at [company]. What's mattered most to me has been [Fit message], which is part of why [Differentiator message] — for example, [specific numbers-backed proof]. Outside work, [one genuine personal detail]. That's part of why [company] stood out to me — [specific researched fact]. [Closing question]."
-
-## Delivery rules (don't skip these)
-
-- **Never write full sentences to memorize.** Kelley's "Talking-Points Outline": write only a skimmable bullet outline of *what* to cover. Practice out loud, timed, until deliverable without notes — memorized-verbatim answers sound robotic and collapse under a follow-up.
-- **Practice out loud until it sounds spontaneous**, not recited (Fry).
-- Bolles's Flower-Exercise shorthand is a useful one-sentence compression check for your own clarity before you expand into the full pitch: *"I want to work with [transferable skills] on [subject matter], for an organization that [values/conditions]."* If you can't fill that sentence in cleanly, the full pitch will ramble.
-- This pitch is not fixed — Klaus demonstrated 6 different versions of her own story for 6 different audiences in one week, all built from the same underlying material (your Three Pillars, file 02). Re-tune the bridge/hook lines per employer; keep the pillars themselves stable.
+## Checks
+- Could any other candidate say the same thing? Then sharpen your edge.
+- Does it touch on anything they care about? If not, tie it to the job description.
+- Are at least 3 claims backed by a number or a story? If not, cut the unsupported claims.

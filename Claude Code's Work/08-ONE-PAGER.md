@@ -1,41 +1,46 @@
-# One-Pager — Interview Cheat Sheet
+# 08 · One-Pager
 
-## My 3 Pillars (fill in once, reuse everywhere)
-| Pillar | Message | Proof |
+**THE LOOP:** Decode the fear → Pick a shape → Anchor to a pillar → Land forward. Keep it under 2 minutes.
+
+**MY PILLARS**
+- PROVE: ______________________ (proof: ____)
+- FIT: ________________________ (proof: ____)
+- EDGE: _______________________ (proof: ____)
+
+**PITCH (7 beats):** Hook → Summary → Throughline → Proof # → Edge → Why here → Question back
+
+**4 SHAPES**
+| Shape | Steps | Use for |
 |---|---|---|
-| **Competence** — I can do this | | |
-| **Fit** — I'll mesh here | | |
-| **Differentiator** — I'm not interchangeable | | |
+| STORY | Situation → (Obstacle) → Action ("I") → Result (#) | Proof questions |
+| PIVOT | Own it → Short negative (1/5) → Fix → Forward | Negatives and objections. For a stated objection use ARTS: Acknowledge → Redirect → Test → Support |
+| MAP | Clarify once → Match to a pillar → 15-sec story → Tie back | Vague or unprepared questions |
+| CLOSE | Confirm their need → Assure (3 pillars) → Ask the next step | Wrap-up |
 
-## My 60-Second Pitch (talking points, not a script)
-Hook → Competence → Fit + Differentiator (bridged) → 1-2 numbers → 1 human detail → why *this* company → close with a question.
+**8 TYPES → SHAPE**
+1. Opener → Pitch
+2. Proof → STORY
+3. Negative → PIVOT
+4. Motivation → MAP + research
+5. Gap / hypothetical → name the gap + S4, or answer then offer a story
+6. History → PIVOT, no blame
+7. Money → deflect
+8. Curveball → calm + MAP
 
-## The 4 Answer Shapes — pick one for any question
-1. **STORY** (proof questions): Situation → [Obstacle] → Action → Result
-2. **PIVOT** (negative/weakness/objection): Acknowledge → short negative → the fix → close positive
-3. **RUBRIC-MAP** (vague/unprepared): Clarify → map to a Pillar → prove with a Story → tie back
-4. **CONTROLLED CLOSE** (end of interview): Confirm their need → Assure fit → Close + ask what's next
+**MY 6 STORIES:** S1 Win ____ · S2 Hard problem ____ · S3 Failure→fix ____ · S4 Fast learner ____ · S5 People ____ · S6 Signature ____
 
-## 8 Question Categories, one line each
-1. **Opener** → your 60-sec pitch, verbatim structure
-2. **Proof/Behavioral** → Story shape
-3. **Negative/Weakness** → Pivot shape, one consistent story reused regardless of phrasing
-4. **Motivation/Fit** → Rubric-Map, anchored on real company research — never skip this
-5. **Objection/Underqualified** → name the gap yourself + fast-learner proof; for hypotheticals, answer then offer a real example
-6. **Illegal/Personal** → answer the underlying concern, not the literal question
-7. **Salary/Logistics** → never name a number first; range only if pressed twice
-8. **Curveball/Stress** → stay neutral, think out loud, don't rush
+**POWER PHRASES**
+- "By what criteria will you select the person for this job?"
+- "Would a real example help?"
+- "Speaking of X, may I tell you about…"
+- "Anything that gives you pause that I could address now?"
+- "What range did you budget?"
+- "When will I hear? What's the latest? May I follow up after that?"
 
-## Control Phrases (pick 2-3 to actually use)
-- Seize the frame early: *"By what criteria will you select the person for this job?"*
-- Bridge a hypothetical to proof: *"Would it help if I gave you a real example of that?"*
-- Surface a silent objection: *"Is there anything about my fit that gives you pause, that I could address now?"*
-- Salary stall: *"I think that's a bit premature until we've both decided this is the right match."*
-- Closing sequence: Can you offer me this job? → When will I hear? → Latest date? → Can I follow up after that? → (if no) anyone else I should talk to?
-
-## Non-Negotiables
-- Answers under 2 minutes; a great one can be 20 seconds.
-- Never badmouth a past employer, ever, under any framing.
-- Never volunteer a salary number first.
-- Always end an answer on a forward note, never trail off.
-- Small talk is not off the record — you're being read from the first "hello."
+**NEVER**
+- Criticize a past employer.
+- Name a number first.
+- Trail off at the end of an answer.
+- Say "I've never…"
+- Ask about perks before an offer.
+- Treat small talk as off the record.

@@ -1,80 +1,70 @@
-# Universal Answer Superstructures
+# 03 · Universal Answer Superstructures
 
-Four shapes. Every interview question you'll ever get — including ones you never prepared for — is one of these four. When a question catches you off guard, your first job is not "what's the answer" — it's "which of these four am I in."
+Interview questions come in two kinds: **"What did you do?"** (past, proof) and **"What would you do?"** (hypothetical). Every one of them can be answered with one of four shapes.
 
----
+## THE LOOP (run it on every question, especially unprepared ones)
 
-## STRUCTURE 1 — THE STORY (proof-of-competence questions)
+1. **Decode.** Take a 2–5 second pause, or restate the question if it is long. Ask yourself two things: which fear sits behind it (see 04), and is it a *did* or a *would* question?
+2. **Pick a shape.** STORY, PIVOT, MAP or CLOSE.
+3. **Anchor.** Land on one pillar: PROVE, FIT or EDGE.
+4. **Land.** End in one of four ways: on the result, with a callback to the question, with a bridge to their situation ("Is that similar to what you face here?"), or with a question. Never trail off.
 
-**Use for:** "Tell me about a time...", "give me an example of...", strengths, proudest accomplishment, any behavioral/competency question.
-
-Merged from Kelley's SOAR, Fry's implicit Problem→Action→Result, and Bolles's 6-question skeleton:
-
-1. **Situation** — one line of context. Name the pain point (lost time/money/opportunity) without blaming anyone.
-2. **Obstacles** *(optional — Kelley: cut it if you didn't skillfully overcome something; don't force a fake obstacle into a clean story)*.
-3. **Action** — enough detail to be credible, not granular. Watch your "we" — make clear what *you* specifically did.
-4. **Result** — the most important part. Quantify, or use intensifiers ("significantly," "dramatically") if you can't. Add a "sound bite" — a quoted line from a boss/client if you have one (Kelley: borrowed praise reads as more objective than self-praise).
-
-**Compression:** any story above can be told in 15 seconds (one sentence per component) for "give me 3 strengths"-type questions, or expanded to 60-90 seconds for a single deep behavioral question. Full stories, tagged by which skill/pillar they prove, live in your Story Bank (file 05).
+Length: under 2 minutes, and often 20–40 seconds is enough. If you run long, say "Bottom line: …" and stop. You can also offer more: "Want more detail on any part?"
 
 ---
 
-## STRUCTURE 2 — THE PIVOT (negative, weakness, objection, or hostile questions)
+## S1 · STORY — for proof questions
+*Use for: "Tell me about a time," strengths, accomplishments.*
 
-**Use for:** weaknesses, failures, "why did you leave," conflict-with-coworker, being underqualified, illegal/invasive questions, anything where a fully honest direct answer could hurt you.
+**S**ituation → **O**bstacle (optional) → **A**ction → **R**esult
+- **Situation:** one line of context, naming the pain (lost time, money or opportunity) without blaming anyone.
+- **Obstacle:** include it only if you were the one who overcame it. Leave it out rather than invent one.
+- **Action:** say "I," not "we." Give enough detail to be believable.
+- **Result:** give a number. Add evidence that it lasted, or a quote from a boss or client if you have one. The result can also go first: "Let me tell you how I cut onboarding time in half…"
 
-Merged from Kador's **ARTS**, Kelley's **Sandwich Technique**, and Fry/LaCivita's "answer the underlying concern":
+For a hypothetical ("would") question, answer it and then add: *"Would it help to hear about a time I actually handled something like that?"* Most interviewers never ask the "did" follow-up, so offer the real proof yourself.
 
-1. **Acknowledge / lead positive** — don't dodge or get defensive. Name the real thing honestly (Sandwich's opening "positive," or ARTS's "I understand the concern").
-2. **The negative, kept short** (~1/5 of the answer's length) — state it plainly, no over-explaining, no "problem"/"weakness" language — use "growing edge" / "area I've developed."
-3. **The fix / reframe** — what you learned, changed, or how the trait's flip side is a strength. This is where most of the airtime goes.
-4. **Close positive, forward-looking** — end on the resolution, not the flaw (second half of the Sandwich).
+## S2 · PIVOT — for negative, objection or hostile questions
+*Use for: weakness, failure, "why did you leave," gaps, being underqualified, invasive questions.*
 
-**When it's a stated objection, not just a tough question**, use full ARTS:
-- **A**cknowledge the concern
-- **R**edirect — ask what's driving it ("What qualities were you hoping to see that prompted that?")
-- **T**est — "If I could show you X, would that address it?"
-- **S**upport with a specific, concrete story
+**Own it → Keep it short → Fix → Forward**
+1. **Own it.** State the real issue plainly. Don't get defensive and don't dodge.
+2. **Keep it short.** The negative should take about one fifth of the answer. Use "an area I've developed," not "my problem."
+3. **Fix.** Spend most of the answer here: what you changed, learned or built, and how the flip side of the trait helps you.
+4. **Forward.** Finish on the strength or the result, never on the flaw.
 
-**When it's illegal/invasive** (age, marital status, religion, disability, etc.), use this specific 3-rung ladder (safest first):
-1. Best default: surface the underlying business concern without confirming/denying the personal fact — *"I sense you may be wondering about [reliability/travel/commitment] — let me address that directly: [evidence]."*
-2. Answer directly, then immediately neutralize the implied concern — often the most effective, since it removes doubt entirely.
-3. Flag it as off-topic, gently — *"I'm not sure that's relevant to the role, but as you can see from my background..."* Only escalate to refusing outright if it persists after this — and treat persistence as a red flag about them, not a loss for you.
+When they raise a **stated objection**, use ARTS:
+- **Acknowledge:** "That's a fair concern."
+- **Redirect:** "What would you need to see to feel confident there?"
+- **Test:** "If I could show you X, would that help?"
+- **Support:** give a specific story.
 
----
+For an **invasive or illegal question**, answer the business concern behind it (reliability, travel, commitment) without confirming or denying the personal fact. The exact phrases are in 06.
 
-## STRUCTURE 3 — THE RUBRIC-MAP (vague, open-ended, or underspecified questions)
+## S3 · MAP — for vague or unprepared questions
+*Use for: "What value do you bring," "What motivates you," "Why should we hire you," and anything you didn't see coming.*
 
-**Use for:** "what value do you offer," "why should we hire you," "what motivates you," any question so broad you don't know what they actually want to hear.
+**Clarify (once) → Match to a pillar → Prove → Tie back**
+1. **Clarify.** "Happy to — which part of the role matters most to you, so I focus there?" Ask this only once; more than once looks evasive.
+2. **Match.** Pick the pillar that fits their answer. Don't invent a new message.
+3. **Prove.** Give a 15-second STORY.
+4. **Tie back.** "…which is exactly the [thing they just named]."
 
-1. **Clarify first, briefly** (sanctioned as non-evasive if done once, framed as helping them get a better answer faster) — *"Happy to walk through that — can you tell me which specific responsibilities matter most to you, so I focus on what's most relevant?"*
-2. **Map their answer to one of your Three Pillars** (file 02) — don't improvise a new message; retrieve the pre-built one that fits.
-3. **Prove it** with a compressed Story (Structure 1).
-4. **Close** by tying back to their stated need — *"That's part of why I think this maps well to what you just described."*
-
-This is also your fallback for genuinely novel/unprepared questions: buy 2-5 seconds of silent processing (Kelley: reads as thoughtful, not slow), identify which Pillar the question is fishing for, and build the answer live using this shape.
-
----
-
-## STRUCTURE 4 — THE CONTROLLED CLOSE (closing statements, "any questions for us," end-of-interview)
-
-**Use for:** the final few minutes of any interview round — this is the highest-leverage, most-wasted moment in most interviews.
-
-Merged from LaCivita's **Confirm-Assure-Close** and the bid-for-action close from Kador:
-
-1. **Confirm** — restate your understanding of what they need. *"I want to confirm — you're looking for someone who can [X] and [Y] — did I get that right?"* (Surfaces any gaps in your understanding while there's still time to fix them.)
-2. **Assure** — recap your matching strengths against those confirmed needs (pull straight from your Three Pillars).
-3. **Close** — state genuine interest, then ask directly what's next. *"I'm genuinely excited about this — is there a fit here? Any reservations I can address before we wrap up?"*
-
-Then run the **control sequence** so you're never left guessing (see file 06 for the exact scripted version).
+## S4 · CLOSE — for the last 5 minutes and "Any questions?"
+**Confirm → Assure → Ask**
+1. **Confirm:** "So you need someone who can [X] and [Y]. Did I get that right?"
+2. **Assure:** match your three pillars to those needs, in one sentence each.
+3. **Ask:** "I'm excited about this. Is there anything that gives you pause? … What's the next step?"
+Then run the follow-up sequence in 06.
 
 ---
 
-### Quick triage
+## Triage
 
-| If the question is... | Use... |
+| Signal | Shape |
 |---|---|
-| "Tell me about a time / give an example" | Structure 1 — Story |
-| Negative, weakness, objection, illegal | Structure 2 — Pivot |
-| Vague, broad, or genuinely unprepared-for | Structure 3 — Rubric-Map |
-| End of interview / closing moment | Structure 4 — Controlled Close |
+| "Tell me about a time / example / proudest" | STORY |
+| Weakness, failure, gap, "why leave," objection, invasive | PIVOT |
+| Broad, vague, or you have no prepared answer | MAP |
+| Wrap-up, "anything else," "questions for us" | CLOSE |
+| "What would you do if…" | Answer it, then offer a STORY |
