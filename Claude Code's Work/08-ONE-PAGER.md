@@ -1,4 +1,6 @@
-# 08 · One-Pager
+# 08 · One-Pager (the 1-page tier)
+
+*Need more detail? Run Prompt A in file 07 with LENGTH set to 3, 5 or 10 pages. Each tier includes the one below it.*
 
 **THE LOOP:** Decode the fear → Pick a shape → Anchor to a pillar → Land forward. Keep it under 2 minutes.
 

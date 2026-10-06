@@ -11,6 +11,19 @@
 | E · Gap attack | You're underqualified on a requirement |
 | F · Debrief | After each round |
 
+## Choose your length (1, 3, 5 or 10 pages)
+
+Prompt A takes a **LENGTH** setting. One page is about 450 words. The tiers are cumulative: each one includes everything in the tier below it.
+
+| LENGTH | Words | Use it when | What you get |
+|---|---|---|---|
+| **1 page** | ~450 | Right before you walk in; phone screens | 3 pillars, 60-sec pitch as bullets, the 4 shapes and 8 types in one line each, your top 3 stories in 15-sec form, 6 power phrases, the "never" list |
+| **3 pages** | ~1,350 | The night before | Adds: gap scan (top 3 gaps with scripts), the full spoken pitch, all 6 stories in 15-sec form, one short answer for each of the 8 types, 5 questions to ask, salary and closing lines |
+| **5 pages** | ~2,250 | A final round or a job you really want | Adds: full story cards (S1–S6), two likely questions per type with spoken answers, an ARTS script for each gap, the full control plan, a thank-you note draft |
+| **10 pages** | ~4,500 | Full preparation, or a senior or high-stakes role | Adds: the complete gap scan table, the fear map, pitch variants (20/60/90 sec), three likely questions per type with follow-up probes, a 90-sec version of each story, a 30/60/90-day plan, 8 questions to ask, a mock-interview question list, and a debrief template |
+
+If you don't set a LENGTH, the LLM should default to **3 pages**.
+
 ---
 
 ## A · Master prompt
@@ -19,13 +32,31 @@ You are my interview coach. The attached playbook (files 01–08) is your ONLY
 method. Do not import outside frameworks. Inputs: PLAYBOOK, RESUME, JD
 (+ optional COMPANY NOTES).
 
+LENGTH: <1 | 3 | 5 | 10> pages   (default 3; one page is about 450 words)
+
+Length tiers are CUMULATIVE. Fit the whole answer to the LENGTH I chose,
+and do not pad. Cut the lowest-priority material first.
+- 1 page: 3 pillars; 60-sec pitch as bullets; 4 shapes and 8 types in one
+  line each; top 3 stories in 15-sec form; 6 power phrases; the never list.
+- 3 pages: add gap scan (top 3 gaps, each with a script); full spoken pitch;
+  all 6 stories in 15-sec form; one short answer per type (Q1-Q8); 5
+  questions to ask; salary and closing lines.
+- 5 pages: add full story cards S1-S6; 2 likely questions per type with
+  spoken answers; an ARTS script for every gap; full control plan; thank-
+  you note draft.
+- 10 pages: add the full gap scan table; the fear map; pitch variants
+  (20/60/90 sec); 3 likely questions per type with follow-up probes; a
+  90-sec version of each story; 30/60/90-day plan; 8 questions to ask;
+  a mock-interview question list; a debrief template.
+Start with a one-line contents list that shows the tier you are using.
+
 Ground rules:
 - Use only facts from my resume/notes. Never invent numbers, titles, or
   results. Where a number is missing, write [NEED: …] and ask me.
 - Mirror the JD's language. Be concise. Spoken answers, not essays.
 - Assume I may be underqualified; handle gaps head-on per files 03/06.
 
-Produce, in this order:
+Produce the following, trimmed to the LENGTH tier above:
 
 0. GAP SCAN — Table: each JD requirement → my best evidence (resume line)
    → Strong / Adjacent / Missing. List the 3 fears this employer will
@@ -60,7 +91,7 @@ Before step 1, ask me up to 5 short questions about missing facts, then
 continue. If I say "skip", proceed using [NEED] placeholders.
 ```
 
-## B · Quick prep (15 minutes before)
+## B · Quick prep (15 minutes before; same as the 1-page tier)
 ```
 Using the playbook, resume and JD: give me only (1) my 3 pillars, one line
 each; (2) a 20-second and a 60-second pitch; (3) the 3 most likely hard
@@ -109,5 +140,6 @@ in my pillars or pitch for the next round.
 ---
 
 **Tips**
+- To move up or down a tier, re-run Prompt A with a different LENGTH. The tiers are cumulative, so the 3-page version contains the whole 1-page version.
 - Re-run Prompt A for each job. Your stories carry over, but your pillars and pitch should be re-tuned to each JD.
 - Rehearse the output out loud. Edit it into your own words; memorized scripts sound robotic.
